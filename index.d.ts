@@ -248,7 +248,7 @@ export interface ConfigureOptions {
    * Platform: all
    * Provider: all
    */
-  url?: string;
+  url?: string | null;
 
   /**
    * Server url where to send fail to post locations
@@ -256,7 +256,7 @@ export interface ConfigureOptions {
    * Platform: all
    * Provider: all
    */
-  syncUrl?: string;
+  syncUrl?: string | null;
 
   /**
    * Specifies how many previously failed locations will be sent to server at once.
@@ -266,7 +266,7 @@ export interface ConfigureOptions {
    *
    * @default 100
    */
-  syncThreshold?: string;
+  syncThreshold?: number;
 
   /**
    * Optional HTTP headers sent along in HTTP request.
