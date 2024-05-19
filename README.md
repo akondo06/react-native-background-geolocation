@@ -1,17 +1,6 @@
-# @mauron85/react-native-background-geolocation
+# LINKING
 
-[![CircleCI](https://circleci.com/gh/mauron85/react-native-background-geolocation/tree/master.svg?style=shield)](https://circleci.com/gh/mauron85/react-native-background-geolocation/tree/master)
-[![issuehunt-shield-v1](issuehunt-shield-v1.svg)](https://issuehunt.io/r/mauron85/react-native-background-geolocation/)
-
-## We're moving
-
-Npm package is now [@mauron85/react-native-background-geolocation](https://www.npmjs.com/package/@mauron85/react-native-background-geolocation)!
-
-# Donation
-
-Please support my work and continued development with your donation.
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6GW8FPTE6TV5J)
+Manual linking is required due to the `dependency.hooks` being removed from `react-native.config.js` in RN 0.69. I was too lazy to do it another way. Tested with RN 0.73.2.
 
 ## Submitting issues
 
